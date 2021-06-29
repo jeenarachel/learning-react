@@ -1,0 +1,23 @@
+.namecard-container{
+    color: aliceblue;
+    background-color: rgb(61, 3, 83);
+    margin: 10px 15px;
+    min-width: 75px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color, 0.35s;
+    text-align: center;
+}
+
+.namecard-container:hover{
+    background-color: rgb(165, 146, 242, 0.5);
+}
+
+.namecard{
+    margin: 0;
+    font-weight: 120;
+}
+
+.card-link{
+    text-decoration: none;
+}

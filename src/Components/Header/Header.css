@@ -1,0 +1,55 @@
+.head-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    transition: width 2s;
+}
+
+.head-image{
+    width: auto;
+    transition: max-width 1s, min-width 1s;
+}
+
+.head-image-big {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.head-image-small {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.head-text {
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 5px 0 15px 0;
+    transition: font-size 1s;
+}
+
+.head-text-big {
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 5px 0 15px 0;
+    font-size: 37px;
+}
+
+.head-text-small {
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 5px 0 15px 0;
+    font-size: 20px;
+}
+
+.body-text {
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 5px 0 15px 0;
+    text-align: center;
+    transition: font-size 1s;
+}
+
+.body-text-big {
+    font-size: 20px;
+}
+
+.body-text-small {
+    font-size: 10px;
+}
